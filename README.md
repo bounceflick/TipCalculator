@@ -27,13 +27,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/bounceflick/TipCalculator/blob/master/walkthrough_userstories.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+- For required user story, cutting and pasting buttons resulted in unexpected behavior (copied over linkage to outlets as well)
+- For settings page user story, had to put calculate tip and total in seperate function that was called in both viewWillApper and IBAction calculate tip - otherwise the tip would not be recalculated when return from settings page. 
 
 ## License
 
