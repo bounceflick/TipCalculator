@@ -15,6 +15,7 @@
 		BA18381124E32EB2003B5416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA18380F24E32EB2003B5416 /* LaunchScreen.storyboard */; };
 		BA18381C24E32EB2003B5416 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18381B24E32EB2003B5416 /* TipCalculatorTests.swift */; };
 		BA18382724E32EB2003B5416 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18382624E32EB2003B5416 /* TipCalculatorUITests.swift */; };
+		BA18383524E33D5B003B5416 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18383424E33D5B003B5416 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA18382224E32EB2003B5416 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA18382624E32EB2003B5416 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		BA18382824E32EB2003B5416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA18383424E33D5B003B5416 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BA18380624E32EB1003B5416 /* SceneDelegate.swift */,
 				BA18380824E32EB1003B5416 /* ViewController.swift */,
 				BA18380A24E32EB1003B5416 /* Main.storyboard */,
+				BA18383424E33D5B003B5416 /* SettingsViewController.swift */,
 				BA18380D24E32EB2003B5416 /* Assets.xcassets */,
 				BA18380F24E32EB2003B5416 /* LaunchScreen.storyboard */,
 				BA18381224E32EB2003B5416 /* Info.plist */,
@@ -262,6 +265,7 @@
 				BA18380924E32EB1003B5416 /* ViewController.swift in Sources */,
 				BA18380524E32EB1003B5416 /* AppDelegate.swift in Sources */,
 				BA18380724E32EB1003B5416 /* SceneDelegate.swift in Sources */,
+				BA18383524E33D5B003B5416 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
