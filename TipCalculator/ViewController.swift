@@ -32,6 +32,9 @@ class ViewController: UIViewController {
         let defaulttipIndex = defaults.integer(forKey: "defaulttipIndexInt")
          
          tipControl.selectedSegmentIndex = defaulttipIndex
+        
+        recalculate_tipandtotal()
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -55,6 +58,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateTip(_ sender: Any) {
+        recalculate_tipandtotal()
+    }
+    
+    func recalculate_tipandtotal(){
         //Get the bill amount
         let bill = Double(billField.text!) ?? 0
         //NOTE: exclamation mark is to denote optionals
